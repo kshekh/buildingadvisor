@@ -1,17 +1,16 @@
+import { Footer } from "@/components/ui/footer";
 import Image from "next/image";
 // import Icon from '@/app/components/Icon'
 export default function Home() {
   return (
     <div className="flex flex-col justify-center bg-white">
       <div className="flex flex-col px-5 pb-12 w-full border-r border-solid bg-black bg-opacity-10 border-r-black border-r-opacity-10  max-w-full">
-        
         <div className="py-5 pr-20 pl-5 mt-6 mr-3.5 ml-3 bg-pink-800 rounded-md max-md:pr-5 max-md:mr-2.5 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
             <div className="flex flex-col max-md:ml-0 max-md:w-full">
               <img
                 loading="lazy"
                 srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&"
-                
               />
             </div>
             <div className="flex flex-col ml-5 w-[69%] max-md:ml-0 max-md:w-full">
@@ -20,9 +19,8 @@ export default function Home() {
                   Let’s find your perfect building
                 </div>
                 <div className="mt-4 text-2xl tracking-wide leading-9 text-white max-md:max-w-full">
-                  Hi, I’m Jill. Welcome to my Condo Portfolio. I’m a condo
-                  building advisor and would love to help you find your next
-                  home or investment property.
+                  Hi, I’m Jill. Welcome to my Condo Portfolio. I’m a condo building advisor and
+                  would love to help you find your next home or investment property.
                 </div>
                 <div className="flex gap-3.5 items-center px-6 py-3 mt-12 bg-white rounded-[10950.528px] max-md:flex-wrap max-md:px-5 max-md:mt-10 max-md:max-w-full">
                   <img
@@ -62,8 +60,8 @@ export default function Home() {
           <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
             <div className="flex flex-col w-[45%] max-md:ml-0 max-md:w-full">
               <div className="self-stretch my-auto text-3xl tracking-wide leading-9 text-white max-md:mt-10 max-md:max-w-full">
-                Follow me to get up to the minute building real estate alerts,
-                pocket listings and updates
+                Follow me to get up to the minute building real estate alerts, pocket listings
+                and updates
               </div>
             </div>
             <div className="flex flex-col ml-5 w-[55%] max-md:ml-0 max-md:w-full">
@@ -385,6 +383,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
