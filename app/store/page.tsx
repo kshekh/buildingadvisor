@@ -5,6 +5,7 @@ import InfoBoxRow from "@/components/ui/InfoBoxRow";
 import MiniSearchRow from "@/components/ui/MiniSearchRow";
 import ProductCard from "@/components/ui/ProductCard";
 import NearByCities from "@/components/ui/NearByCities";
+import { Footer } from "@/components/ui/footer";
 const FavoriteBuildings = [
   {
     image: "thumb-1.png",
@@ -210,8 +211,7 @@ function StoreHomePg() {
       <div className="max-w-screen-wrap mx-auto w-full px-5 space-y-5">
         <div className="flex flex-col pt-5 gap-5">
           <h2 className="uppercase font-semibold text-black/80 text-center text-xl font-montserrat">
-            Benefits of{" "}
-            <span className="text-primary">beComing a building advisor</span>
+            Benefits of <span className="text-primary">beComing a building advisor</span>
           </h2>
           <InfoBoxRow boxData={resultInfoBoxesEcom} />
         </div>
@@ -293,6 +293,7 @@ function StoreHomePg() {
           })}
         </div>
       </MiniSearchRow>
+      <Footer />
     </div>
   );
 }

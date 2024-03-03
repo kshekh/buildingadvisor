@@ -5,10 +5,7 @@ interface ContainerProps {
   children?: any; // Title is optional
 }
 
-const MiniSearchRow: React.FC<ContainerProps> = ({
-  sectionTitle,
-  children,
-}) => {
+const MiniSearchRow: React.FC<ContainerProps> = ({ sectionTitle, children }) => {
   // const { sectionTitle, Children } = props;
 
   return (

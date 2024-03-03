@@ -1,4 +1,3 @@
-import { Footer } from "@/components/ui/footer";
 import Image from "next/image";
 // import Icon from '@/app/components/Icon'
 export default function Home() {
@@ -383,7 +382,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
