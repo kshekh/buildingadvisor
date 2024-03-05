@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "@/components/ui/Header";
-import Hero from "@/components/ui/Hero";
+import Banner from "@/components/ui/details-page/Banner";
 import InfoBoxRow from "@/components/ui/InfoBoxRow";
 import MiniSearchRow from "@/components/ui/MiniSearchRow";
 import ProductCard from "@/components/ui/ProductCard";
@@ -206,7 +206,6 @@ function StoreHomePg() {
   return (
     <div className="flex flex-col gap-1 pb-5">
       <Header />
-      <Hero />
 
       <div className="max-w-screen-wrap mx-auto w-full px-5 space-y-5">
         <div className="flex flex-col pt-5 gap-5">
