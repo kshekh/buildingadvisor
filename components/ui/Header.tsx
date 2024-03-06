@@ -276,12 +276,12 @@ function Header() {
         </div>
       </section>
 
-      <section className="max-w-screen-wrap mt-1 mx-auto px-5 space-y-5 w-full ">
+      <section className="max-w-screen-wrap mt-1 mx-auto px-5 space-y-5 w-full mb-6">
         <div>
           <div className="flex flex-col rounded-b-md ">
-            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md: items-start mb-24">
+            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md: items-start mb-4">
               <div className="flex flex-col w-8/12 max-md:ml-0 max-md:w-full">
-                <div className="flex grow justify-between  w-full rounded-sm bg-white py-8 px-8 mb-3">
+                <div className="flex grow justify-between  w-full rounded-sm bg-white py-8 px-8 mb-8">
                   <div>
                     <h5 className="text-[#910048] text-xl uppercase mb-5">
                       Building Information
@@ -334,14 +334,14 @@ function Header() {
                     <h5 className="text-[#910048] font-montserrat text-xl font-semibold uppercase mb-5">
                       Building Description
                     </h5>
-                    <p className="text-base mb-4">
+                    <p className="text-xl mb-6 font-normal">
                       Beach House 8 is an exclusive mid-rise condominium building located on the
                       beachfront in Miami Beach, FL at 3651 Collins Avenue. Conveniently
                       located, it is within walking distance to South Beach. It is perfectly
                       situated for quick access to all of South Florida, perfectly combining
                       oceanfront living with the convenience of the city.
                     </p>
-                    <p className="text-base mb-4">
+                    <p className="text-xl mb-4 font-normal">
                       It is a luxurious 10-story building that houses only 8 condominiums,
                       creating a unique and intimate community that is truly a boutique
                       collection of homes. Beach House 8 offers 7 four-bedroom condominiums
@@ -473,6 +473,245 @@ function Header() {
                       </div>
                     </form>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-screen-wrap mt-1 mx-auto px-5 space-y-5 w-full ">
+        <div>
+          <div className="flex flex-col rounded-b-md bg-white px-16 py-12 pb-8">
+            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md: items-start">
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <h5 className="text-[#910048] font-montserrat text-3xl font-normal mb-5 leading-[40px]">
+                  Building <br /> Amenities
+                </h5>
+              </div>
+
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <div>
+                  <ul>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        24-hour Security
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Concierge Services
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Elevator
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Gated Entry
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Hurricane Impact Windows
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Pet-Friendly
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        State-of-Art Fitness Center
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Two Parking Spaces / Resdient
+                      </h5>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <div>
+                  <ul>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Yoga Terrace
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Beautifully Appointed Lobby
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Direct Beach Access
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Hot Tub
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Outdoor Lounge
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Poolside Cabanas
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Heated Swimming Pool
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Valet Parking
+                      </h5>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <div>
+                  <ul>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Biking / Jogging Path
+                      </h5>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
