@@ -276,12 +276,12 @@ function Header() {
         </div>
       </section>
 
-      <section className="max-w-screen-wrap mt-1 mx-auto px-5 space-y-5 w-full ">
+      <section className="max-w-screen-wrap mt-1 mx-auto px-5 space-y-5 w-full mb-5">
         <div>
           <div className="flex flex-col rounded-b-md ">
-            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md: items-start mb-24">
+            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md: items-start mb-4">
               <div className="flex flex-col w-8/12 max-md:ml-0 max-md:w-full">
-                <div className="flex grow justify-between  w-full rounded-sm bg-white py-8 px-8 mb-3">
+                <div className="flex grow justify-between  w-full rounded-sm bg-white py-8 px-8 mb-8">
                   <div>
                     <h5 className="text-[#910048] text-xl uppercase mb-5">
                       Building Information
@@ -334,14 +334,14 @@ function Header() {
                     <h5 className="text-[#910048] font-montserrat text-xl font-semibold uppercase mb-5">
                       Building Description
                     </h5>
-                    <p className="text-base mb-4">
+                    <p className="text-xl mb-6 font-normal">
                       Beach House 8 is an exclusive mid-rise condominium building located on the
                       beachfront in Miami Beach, FL at 3651 Collins Avenue. Conveniently
                       located, it is within walking distance to South Beach. It is perfectly
                       situated for quick access to all of South Florida, perfectly combining
                       oceanfront living with the convenience of the city.
                     </p>
-                    <p className="text-base mb-4">
+                    <p className="text-xl mb-4 font-normal">
                       It is a luxurious 10-story building that houses only 8 condominiums,
                       creating a unique and intimate community that is truly a boutique
                       collection of homes. Beach House 8 offers 7 four-bedroom condominiums
@@ -473,6 +473,666 @@ function Header() {
                       </div>
                     </form>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-screen-wrap mt-1 mx-auto px-5 space-y-5 w-full mb-5 ">
+        <div>
+          <div className="flex flex-col rounded-b-md bg-white px-16 py-12 pb-8">
+            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md: items-start">
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <h5 className="text-[#910048] font-montserrat text-3xl font-normal mb-5 leading-[40px]">
+                  Building <br /> Amenities
+                </h5>
+              </div>
+
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <div>
+                  <ul>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        24-hour Security
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Concierge Services
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Elevator
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Gated Entry
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Hurricane Impact Windows
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Pet-Friendly
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        State-of-Art Fitness Center
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Two Parking Spaces / Resdient
+                      </h5>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <div>
+                  <ul>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Yoga Terrace
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Beautifully Appointed Lobby
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Direct Beach Access
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Hot Tub
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Outdoor Lounge
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Poolside Cabanas
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Heated Swimming Pool
+                      </h5>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Valet Parking
+                      </h5>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <div>
+                  <ul>
+                    <li className="flex items-center mb-2">
+                      <Image
+                        src="/images/done-icon.png"
+                        width={20}
+                        height={20}
+                        className="mr-2"
+                        alt=""
+                      />
+                      <h5 className="text-[#000] font-montserrat text-base font-normal leading-[40px]">
+                        Biking / Jogging Path
+                      </h5>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-screen-wrap mt-1 mx-auto px-5 space-y-5 w-full ">
+        <div>
+          <div className="flex flex-col rounded-b-md bg-white px-16 py-12 pb-8">
+            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md: items-start">
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <h5 className="text-[#910048] font-montserrat text-3xl font-normal mb-5 leading-[40px]">
+                  Building <br /> Reviews
+                </h5>
+
+                <div className="gap-2 flex items-center  ">
+                  <a
+                    className="border-2 text-sm  shadow-lg px-4 border-black/20 bg-white hover:bg-black/10  font-montserrat ease-in-out duration-200 rounded-md py-2  uppercase  font-medium text-black hover:text-black"
+                    href="#"
+                  >
+                    Write a review
+                  </a>
+                  <a
+                    className="border-2  shadow-lg text-sm px-4 border-black/20 bg-white hover:bg-black/10  font-montserrat ease-in-out duration-200 rounded-md py-2  uppercase  font-medium text-black hover:text-black"
+                    href="#"
+                  >
+                    View all
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex flex-col w-4/12 max-md:ml-0 max-md:w-full">
+                <h5 className="text-[#910048] font-montserrat text-xl font-semibold uppercase mb-5">
+                  This is a great boutique building!
+                </h5>
+                <p className="text-xl mb-2 font-normal">
+                  Beach House 8 is an exclusive mid-rise condominium building located on the
+                  beachfront in Miami Beach, FL at 3651 Collins Avenue. Conveniently located, it
+                  is within walking distance to South Beach.
+                </p>
+                <p className="text-base text-[#888888] font-medium">Johny B. Miami, FL</p>
+              </div>
+
+              <div className="flex flex-col w-5/12 max-md:ml-0 max-md:w-full pl-8">
+                <div>
+                  <div className="flex w-full items-center mb-5">
+                    <li className=" mr-16 w-44 list-none">
+                      <a
+                        href="#"
+                        className="text-[#910048] font-montserrat text-base font-semibold uppercase "
+                      >
+                        amenities
+                      </a>
+                    </li>
+
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 mr-8 dark:bg-gray-700">
+                      <div className="bg-[#910048] h-2.5 rounded-full w-6/12"></div>
+                    </div>
+                  </div>
+                  <div className="flex w-full items-center mb-5">
+                    <li className=" mr-16 w-44 list-none">
+                      {" "}
+                      <a
+                        href="#"
+                        className="text-[#910048] font-montserrat text-base font-semibold uppercase "
+                      >
+                        location
+                      </a>
+                    </li>
+
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 mr-8 dark:bg-gray-700">
+                      <div className="bg-[#910048] h-2.5 rounded-full w-6/12"></div>
+                    </div>
+                  </div>
+
+                  <div className="flex w-full items-center mb-5">
+                    <li className=" mr-16 w-44 list-none">
+                      <a
+                        href="#"
+                        className="text-[#910048] font-montserrat text-base font-semibold uppercase "
+                      >
+                        price
+                      </a>
+                    </li>
+
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 mr-8 dark:bg-gray-700">
+                      <div className="bg-[#910048] h-2.5 rounded-full w-6/12"></div>
+                    </div>
+                  </div>
+
+                  <div className="flex w-full items-center mb-5">
+                    <li className=" mr-16 w-24 list-none">
+                      <a
+                        href="#"
+                        className="text-[#910048] font-montserrat text-base font-semibold uppercase "
+                      >
+                        management
+                      </a>
+                    </li>
+
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 mr-8 dark:bg-gray-700">
+                      <div className="bg-[#910048] h-2.5 rounded-full w-6/12"></div>
+                    </div>
+                  </div>
+
+                  <div className="flex w-full items-center mb-5">
+                    <li className=" mr-16 w-24 list-none">
+                      <a
+                        href="#"
+                        className="text-[#910048] font-montserrat text-base font-semibold uppercase "
+                      >
+                        community
+                      </a>
+                    </li>
+
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 mr-8 dark:bg-gray-700">
+                      <div className="bg-[#910048] h-2.5 rounded-full w-6/12"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-screen-wrap mt-1 mx-auto px-5 space-y-5 w-full mb-5 ">
+        <div>
+          <div className="flex flex-col rounded-b-md bg-white px-16 py-12 pb-8 gap-12">
+            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md: items-start">
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <h5 className="text-[#910048] font-montserrat text-3xl font-normal mb-5 leading-[40px]">
+                  Building <br /> Floorplans
+                </h5>
+              </div>
+
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <div className="mb-16">
+                  <Image
+                    src="/images/home-plan.png"
+                    width={319}
+                    height={145}
+                    className="mr-2 mb-4"
+                    alt=""
+                  />
+                  <h4 className="text-center mb-[1px] text-lg font-semibold uppercase">BH3</h4>
+                  <p className="text-center text-base text-black/55">2bd 2ba - 2250 sqft </p>
+                  <p className="text-center text-base text-black/55"> Private Terraces</p>
+                </div>
+                <div className="mb-1">
+                  <Image
+                    src="/images/home-plan.png"
+                    width={319}
+                    height={145}
+                    className="mr-2 mb-4"
+                    alt=""
+                  />
+                  <h4 className="text-center mb-[1px] text-lg font-semibold uppercase">BH6</h4>
+                  <p className="text-center text-base text-black/55">2bd 2ba - 2250 sqft </p>
+                  <p className="text-center text-base text-black/55"> Private Terraces</p>
+                </div>
+              </div>
+
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <div className="mb-16">
+                  <Image
+                    src="/images/home-plan.png"
+                    width={319}
+                    height={145}
+                    className="mr-2 mb-4"
+                    alt=""
+                  />
+                  <h4 className="text-center mb-[1px] text-lg font-semibold uppercase">BH5</h4>
+                  <p className="text-center text-base text-black/55">2bd 2ba - 2250 sqft </p>
+                  <p className="text-center text-base text-black/55"> Private Terraces</p>
+                </div>
+                <div className="mb-1">
+                  <Image
+                    src="/images/home-plan.png"
+                    width={319}
+                    height={145}
+                    className="mr-2 mb-4"
+                    alt=""
+                  />
+                  <h4 className="text-center mb-[1px] text-lg font-semibold uppercase">BH7</h4>
+                  <p className="text-center text-base text-black/55">2bd 2ba - 2250 sqft </p>
+                  <p className="text-center text-base text-black/55"> Private Terraces</p>
+                </div>
+              </div>
+
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <div className="mb-16">
+                  <Image
+                    src="/images/home-plan.png"
+                    width={319}
+                    height={145}
+                    className="mr-2 mb-4"
+                    alt=""
+                  />
+                  <h4 className="text-center mb-[1px] text-lg font-semibold uppercase">BH5</h4>
+                  <p className="text-center text-base text-black/55">2bd 2ba - 2250 sqft </p>
+                  <p className="text-center text-base text-black/55"> Private Terraces</p>
+                </div>
+                <div className="mb-1">
+                  <Image
+                    src="/images/home-plan.png"
+                    width={319}
+                    height={145}
+                    className="mr-2 mb-4"
+                    alt=""
+                  />
+                  <h4 className="text-center mb-[1px] text-lg font-semibold uppercase">BH8</h4>
+                  <p className="text-center text-base text-black/55">2bd 2ba - 2250 sqft </p>
+                  <p className="text-center text-base text-black/55"> Private Terraces</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-screen-wrap mt-1 mx-auto px-5 space-y-5 w-full mb-5 ">
+        <div>
+          <div className="flex flex-col rounded-b-md bg-white px-10 py-8 pb-2 gap-12">
+            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md: items-start">
+              <div className="flex flex-col w-4/12 max-md:ml-0 max-md:w-full">
+                <h5 className="text-[#910048] font-montserrat text-3xl font-normal mb-5 leading-[40px]">
+                  Building Association <br /> & Management
+                </h5>
+              </div>
+
+              <div className="flex flex-col w-2/12 max-md:ml-0 max-md:w-full">
+                <div mb-5>
+                  <h5 className="text-[#910048] text-lg uppercase mb-3">association fees</h5>
+                  <ul>
+                    <li className="mb-2 text-base">$3,500/mo</li>
+                    <li className="mb-2 text-base">$2/sq.ft./mo</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <div mb-5>
+                  <h5 className="text-[#910048] text-lg uppercase mb-3">
+                    Building Association
+                  </h5>
+                  <ul>
+                    <li className="mb-2 text-base font-medium">Beach House 8 - Association</li>
+                    <li className="mb-2 text-base">
+                      3651 Collins Avenue <br /> Miami Beach, FL 33140
+                    </li>
+
+                    <li className="mb-2 text-base">
+                      (800) 443 - 2343 <br /> info@hh8association.com
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                <div className=" mb-5">
+                  <h5 className="text-[#910048] text-lg uppercase mb-3">Management company</h5>
+                  <ul>
+                    <li className="mb-2 text-base font-medium">Property Manager, Inc</li>
+                    <li className="mb-2 text-base">
+                      3651 Collins Avenue <br /> Miami Beach, FL 33140
+                    </li>
+
+                    <li className="mb-2 text-base">
+                      (800) 443 - 2343 <br /> manager@mgmtcompany.com
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-screen-wrap mt-1 mx-auto px-5 space-y-5 w-full mb-5 ">
+        <div>
+          <div className="flex flex-col rounded-b-md bg-white px-10 py-8  gap-12">
+            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md: items-start ">
+              <div className="flex flex-col w-2/12 max-md:ml-0 max-md:w-full">
+                <h5 className="text-[#910048] font-montserrat text-3xl font-normal mb-5 leading-[40px]">
+                  Building
+                  <br /> social
+                </h5>
+              </div>
+
+              <div className="flex flex-col lg:w-[21%] max-md:ml-0 max-md:w-full">
+                <div className=" bg-[#F0F0F0] px-5 py-6 rounded-sm h-[350px] flex items-end">
+                  <a
+                    href="#"
+                    className="text-[#910048] text-lg font-semibold text-center uppercase mb-3"
+                  >
+                    Let me introduce you to a great building
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex flex-col lg:w-[21%] max-md:ml-0 max-md:w-full">
+                <div className=" bg-[#F0F0F0] px-5 py-6 rounded-sm h-[350px] flex items-end">
+                  <a
+                    href="#"
+                    className="text-[#910048] text-lg font-semibold text-center uppercase mb-3"
+                  >
+                    New Unit for Sale in the building
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex flex-col lg:w-[21%] max-md:ml-0 max-md:w-full">
+                <div className=" bg-[#F0F0F0] px-5 py-6 rounded-sm h-[350px] flex items-end">
+                  <a
+                    href="#"
+                    className="text-[#910048] text-lg font-semibold text-center uppercase mb-3"
+                  >
+                    5 Units for Sale Right now
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex flex-col lg:w-[21%] max-md:ml-0 max-md:w-full">
+                <div className=" bg-[#F0F0F0] px-5 py-6 rounded-sm h-[350px] flex items-end">
+                  <a
+                    href="#"
+                    className="text-[#910048] text-lg mx-auto font-semibold text-center uppercase mb-3"
+                  >
+                    Just Sold <br /> In the building
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-screen-wrap mt-1 mx-auto px-5 space-y-5 w-full mb-5 ">
+        <div>
+          <div className="flex flex-col rounded-b-md bg-white px-10 py-8  gap-12">
+            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md: items-start ">
+              <div className="flex flex-col w-2/12 max-md:ml-0 max-md:w-full">
+                <h5 className="text-[#910048] font-montserrat text-3xl font-normal mb-5 leading-[40px]">
+                  Building
+                  <br /> social
+                </h5>
+              </div>
+
+              <div className="flex flex-col lg:w-[21%] max-md:ml-0 max-md:w-full">
+                <div className="mb-1">
+                  <Image
+                    src="/images/living-1.png"
+                    width={258}
+                    height={155}
+                    className="mr-2 mb-4"
+                    alt=""
+                  />
+                  <h4 className=" mb-[1px] text-lg font-semibold ">
+                    The Future of Condo Living
+                  </h4>
+                  <p className=" text-base text-black/55">
+                    {" "}
+                    Read everything you need to know about your new condo life.{" "}
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-col lg:w-[21%] max-md:ml-0 max-md:w-full">
+                <div className="mb-1">
+                  <Image
+                    src="/images/living-2.png"
+                    width={258}
+                    height={155}
+                    className="mr-2 mb-4"
+                    alt=""
+                  />
+                  <h4 className=" mb-[1px] text-lg font-semibold ">
+                    The Future of Condo Living
+                  </h4>
+                  <p className=" text-base text-black/55">
+                    {" "}
+                    Read everything you need to know about your new condo life.{" "}
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-col lg:w-[21%] max-md:ml-0 max-md:w-full">
+                <div className="mb-1">
+                  <Image
+                    src="/images/living-3.png"
+                    width={258}
+                    height={155}
+                    className="mr-2 mb-4"
+                    alt=""
+                  />
+                  <h4 className=" mb-[1px] text-lg font-semibold ">Buying a Condo?</h4>
+                  <p className=" text-base text-black/55">
+                    {" "}
+                    Read everything you need to know about your new condo life.{" "}
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-col lg:w-[21%] max-md:ml-0 max-md:w-full">
+                <div className="mb-1">
+                  <Image
+                    src="/images/living-4.png"
+                    width={258}
+                    height={155}
+                    className="mr-2 mb-4"
+                    alt=""
+                  />
+                  <h4 className=" mb-[1px] text-lg font-semibold ">Understand HOA Insurance</h4>
+                  <p className=" text-base text-black/55">
+                    {" "}
+                    Read everything you need to know about your new condo life.{" "}
+                  </p>
                 </div>
               </div>
             </div>
